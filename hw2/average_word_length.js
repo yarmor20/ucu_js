@@ -6,7 +6,7 @@ function avgWordLengthCalc(string) {
 	let words = string.split(" ");
 
 	for (let word of words) {
-			bareStrLength += word.length;
+		bareStrLength += word.length;
 	}
 
 	return (bareStrLength / words.length).toFixed(2);
